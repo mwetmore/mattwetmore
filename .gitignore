@@ -68,5 +68,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# Workspace Files
+# Workspace/Site Files
 mattwetmore.code-Workspace
+_site
