@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "postcss ./_includes/site.css > ./_site/includes/site.min.css && cross-env NODE_ENV=serve eleventy --serve",
-    "build": "postcss ./_includes/site.css > ./_site/includes/site.min.css && cross-env NODE_ENV=build eleventy"
+    "serve": "postcss ./src/css/site.css > ./src/css/site.min.css && cross-env NODE_ENV=serve eleventy --serve",
+    "build": "postcss ./src/css/site.css > ./src/css/site.min.css && cross-env NODE_ENV=build eleventy"
   },
   "repository": {
     "type": "git",
